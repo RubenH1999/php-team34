@@ -1,0 +1,77 @@
+body{
+
+    background-color: whitesmoke;
+    color: $standardtext;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+h1{
+    color: $titletext;
+}
+
+nav {
+    a{
+        color: $linkcolor;
+    }
+
+    a:hover{
+        color:$logo-yellow;
+    }
+
+    a:active{
+
+    }
+}
+
+#logonav{
+    color: $logo-yellow;}
+
+.nav-item{
+    font-size: 25px;
+}
+.nav-pastel{
+    background-color:$nav-green;
+}
+.fa-question-circle{
+    color:$nav-green;
+}
+.card-title.artist{
+    color: $nav-green;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.zichtbaarheid{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: $nav-green;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
+//.card{max-width: 18rem;
+//}
+.tickets{
+    margin: 40px;
+}
